@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Utilities
 {
@@ -15,7 +19,8 @@ namespace Utilities
 
         #endregion
 
-        public IndexedLinkedList() : this(0)
+        public IndexedLinkedList()
+            : this(0)
         {
         }
 
